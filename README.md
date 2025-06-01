@@ -1,6 +1,6 @@
 # 🧠 League of Legends AI Coach
 
-Bienvenue dans **League of Legends AI Coach**, un projet open-source ambitieux visant à créer un assistant de coaching automatisé basé sur l’intelligence artificielle pour le jeu *League of Legends*.
+Bienvenue dans **League of Legends AI Coach**, un projet open-source perso visant à créer un assistant de coaching automatisé basé sur l’intelligence artificielle pour le jeu *League of Legends*.
 
 ---
 
