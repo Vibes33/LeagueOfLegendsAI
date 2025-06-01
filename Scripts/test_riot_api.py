@@ -1,7 +1,7 @@
 import requests
 
 # ✅ Ta clé API Riot Games (valide 24h)
-RIOT_API_KEY = "RGAPI-b9e8abdf-d3ca-4bc2-9ad5-062b74a30f42"
+RIOT_API_KEY = "Ajouter une API ici"
 
 # Configuration de l'en-tête d'authentification
 HEADERS = {"X-Riot-Token": RIOT_API_KEY}
