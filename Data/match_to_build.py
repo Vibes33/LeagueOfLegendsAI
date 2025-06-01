@@ -3,7 +3,7 @@ import json
 import time
 import sqlite3
 
-RIOT_API_KEY = "RGAPI-819de22e-4e97-4c7a-afd7-ae343e7b799c"
+RIOT_API_KEY = "Ajouter une API ici"
 HEADERS = {"X-Riot-Token": RIOT_API_KEY}
 REGION_ROUTING = "asia"
 PLATFORM_ROUTING = "kr"
