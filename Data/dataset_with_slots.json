@@ -1487,5 +1487,539 @@
     "item4": "Executioner's Calling",
     "item5": "None",
     "item6": "None"
+  },
+  {
+    "champion": "Azir",
+    "role": "Mid",
+    "rune": "Lethal Tempo",
+    "matchup": "Mel",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Nashor's Tooth",
+    "item3": "Dark Seal",
+    "item4": "Mercury's Treads",
+    "item5": "Rylai's Crystal Scepter",
+    "item6": "Zhonya's Hourglass"
+  },
+  {
+    "champion": "Ryze",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Sylas",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Rod of Ages",
+    "item3": "Mercury's Treads",
+    "item4": "None",
+    "item5": "None",
+    "item6": "None"
+  },
+  {
+    "champion": "Ekko",
+    "role": "Mid",
+    "rune": "Hail of Blades",
+    "matchup": "Syndra",
+    "ally_tags": [
+      "Fighter",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Hextech Rocketbelt",
+    "item2": "Lich Bane",
+    "item3": "Mercury's Treads",
+    "item4": "Void Staff",
+    "item5": "Rabadon's Deathcap",
+    "item6": "Shadowflame"
+  },
+  {
+    "champion": "Ahri",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Anivia",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Malignance",
+    "item4": "Liandry's Torment",
+    "item5": "None",
+    "item6": "None"
+  },
+  {
+    "champion": "Taliyah",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Viktor",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Dark Seal",
+    "item4": "Liandry's Torment",
+    "item5": "Zhonya's Hourglass",
+    "item6": "None"
+  },
+  {
+    "champion": "Sylas",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Ekko",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Dark Seal",
+    "item2": "Hextech Rocketbelt",
+    "item3": "Sorcerer's Shoes",
+    "item4": "Shadowflame",
+    "item5": "Zhonya's Hourglass",
+    "item6": "Needlessly Large Rod"
+  },
+  {
+    "champion": "Azir",
+    "role": "Mid",
+    "rune": "Lethal Tempo",
+    "matchup": "Sylas",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Nashor's Tooth",
+    "item3": "Control Ward",
+    "item4": "Rylai's Crystal Scepter",
+    "item5": "Sorcerer's Shoes",
+    "item6": "Zhonya's Hourglass"
+  },
+  {
+    "champion": "Azir",
+    "role": "Mid",
+    "rune": "Lethal Tempo",
+    "matchup": "Corki",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Control Ward",
+    "item3": "Nashor's Tooth",
+    "item4": "Sorcerer's Shoes",
+    "item5": "Liandry's Torment",
+    "item6": "None"
+  },
+  {
+    "champion": "Ahri",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Taliyah",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Dark Seal",
+    "item3": "Ionian Boots of Lucidity",
+    "item4": "Malignance",
+    "item5": "Horizon Focus",
+    "item6": "Liandry's Torment"
+  },
+  {
+    "champion": "Galio",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Viktor",
+    "ally_tags": [
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Dark Seal",
+    "item2": "Hollow Radiance",
+    "item3": "Riftmaker",
+    "item4": "Mercury's Treads",
+    "item5": "Needlessly Large Rod",
+    "item6": "None"
+  },
+  {
+    "champion": "Ahri",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Katarina",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Malignance",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Fiendish Codex",
+    "item4": "Horizon Focus",
+    "item5": "Dark Seal",
+    "item6": "Blighting Jewel"
+  },
+  {
+    "champion": "Smolder",
+    "role": "Mid",
+    "rune": "Arcane Comet",
+    "matchup": "Orianna",
+    "ally_tags": [
+      "Assassin",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "item1": "Boots of Swiftness",
+    "item2": "Cloak of Agility",
+    "item3": "Essence Reaver",
+    "item4": "Spear of Shojin",
+    "item5": "Control Ward",
+    "item6": "Rapid Firecannon"
+  },
+  {
+    "champion": "Smolder",
+    "role": "Mid",
+    "rune": "Grasp of the Undying",
+    "matchup": "Yone",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Support"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Long Sword",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Essence Reaver",
+    "item4": "Spear of Shojin",
+    "item5": "Infinity Edge",
+    "item6": "Lord Dominik's Regards"
+  },
+  {
+    "champion": "Sylas",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Syndra",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Dark Seal",
+    "item3": "Hextech Alternator",
+    "item4": "Hextech Rocketbelt",
+    "item5": "Sorcerer's Shoes",
+    "item6": "Aether Wisp"
+  },
+  {
+    "champion": "Taliyah",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Viktor",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Amplifying Tome",
+    "item2": "Dark Seal",
+    "item3": "Ionian Boots of Lucidity",
+    "item4": "Liandry's Torment",
+    "item5": "Rabadon's Deathcap",
+    "item6": "None"
+  },
+  {
+    "champion": "Taliyah",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Nocturne",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Amplifying Tome",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Horizon Focus",
+    "item4": "Void Staff",
+    "item5": "Rabadon's Deathcap",
+    "item6": "None"
+  },
+  {
+    "champion": "Taliyah",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Orianna",
+    "ally_tags": [
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Dark Seal",
+    "item2": "Ionian Boots of Lucidity",
+    "item3": "Liandry's Torment",
+    "item4": "Rabadon's Deathcap",
+    "item5": "None",
+    "item6": "None"
+  },
+  {
+    "champion": "Taliyah",
+    "role": "Mid",
+    "rune": "Phase Rush",
+    "matchup": "Zoe",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Doran's Ring",
+    "item2": "Mercury's Treads",
+    "item3": "Needlessly Large Rod",
+    "item4": "Banshee's Veil",
+    "item5": "None",
+    "item6": "None"
+  },
+  {
+    "champion": "Syndra",
+    "role": "Mid",
+    "rune": "Summon Aery",
+    "matchup": "Ahri",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "item1": "Amplifying Tome",
+    "item2": "Boots of Swiftness",
+    "item3": "Blackfire Torch",
+    "item4": "Cosmic Drive",
+    "item5": "Banshee's Veil",
+    "item6": "Rabadon's Deathcap"
+  },
+  {
+    "champion": "Leblanc",
+    "role": "Mid",
+    "rune": "Electrocute",
+    "matchup": "Akali",
+    "ally_tags": [
+      "Assassin",
+      "Fighter",
+      "Marksman",
+      "Support",
+      "Tank"
+    ],
+    "enemy_tags": [
+      "Assassin",
+      "Fighter",
+      "Mage",
+      "Marksman"
+    ],
+    "item1": "Dark Seal",
+    "item2": "Sorcerer's Shoes",
+    "item3": "Luden's Companion",
+    "item4": "Needlessly Large Rod",
+    "item5": "Shadowflame",
+    "item6": "Banshee's Veil"
   }
 ]

@@ -3,10 +3,14 @@ import json
 import time
 import sqlite3
 
+<<<<<<< HEAD
 RIOT_API_KEY = "Ajouter une API ici"
+=======
+RIOT_API_KEY = "RGAPI-f329d15d-e951-4968-8eea-36267228c6d2"
+>>>>>>> a7eeff7 (Database Extension)
 HEADERS = {"X-Riot-Token": RIOT_API_KEY}
-REGION_ROUTING = "asia"
-PLATFORM_ROUTING = "kr"
+REGION_ROUTING = "europe"
+PLATFORM_ROUTING = "euw"
 
 # === Connexion à la base de données locale pour les tags ===
 conn = sqlite3.connect("../SQL/lol_ai.db")
