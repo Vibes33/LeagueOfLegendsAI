@@ -6,7 +6,7 @@ import sqlite3
 <<<<<<< HEAD
 RIOT_API_KEY = "Ajouter une API ici"
 =======
-RIOT_API_KEY = "RGAPI-f329d15d-e951-4968-8eea-36267228c6d2"
+RIOT_API_KEY = ""
 >>>>>>> a7eeff7 (Database Extension)
 HEADERS = {"X-Riot-Token": RIOT_API_KEY}
 REGION_ROUTING = "europe"
