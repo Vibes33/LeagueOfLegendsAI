@@ -4,7 +4,7 @@ Bienvenue dans **League of Legends AI Coach**, un projet open-source perso visan
 
 ---
 
-## 🎯 Objectif du projet
+## 🎯 Objectif du projet final
 
 L'objectif est de fournir aux joueurs un **coaching personnalisé** via une interface web ou CLI capable de :
 
@@ -13,7 +13,7 @@ L'objectif est de fournir aux joueurs un **coaching personnalisé** via une inte
 - 🔍 Identifier les optimisations possibles (builds, runes, macro, etc.)  
 - 💡 Proposer des conseils contextualisés basés sur des données réelles de haut niveau  
 
-Le but ultime : apprendre aux joueurs **le pourquoi** de leurs erreurs, pas seulement **le quoi**.
+Le but ultime : Développer une IA stratégique de très haut niveau capable d’analyser des phases de lane en vidéo, comprendre les logiques de jeu comme un coach professionnel (LCK-level), et détecter automatiquement les bons ou mauvais comportements.
 
 ---
 
@@ -46,56 +46,66 @@ Le but ultime : apprendre aux joueurs **le pourquoi** de leurs erreurs, pas seul
 | `Riot Games API`     | Récupération des données live         |
 | `Data Dragon`        | Mapping des objets et champions       |
 | `GitHub`             | Versioning et hébergement du projet   |
+| `PyTorch`            | Entraînement profond (deep learning)  |
+| `OpenCV`             | Traitement vidéo                      |
+| `JSon`               | Format d'annotation / de fichiers bdd |
 
 ---
 
 ## 🧪 En cours de développement
 
 - ⚔️ Reconnaissance de matchups spécifiques  
-- 🎬 Lecture et découpage automatique de replays  
-- 🗺️ Analyse de la vision et du positionnement  
-- 🕹️ Coaching complet lane par lane  
-- 🌐 Interface web (long terme)
+- 🎬 Analyse de replays et reconnaissances de paterns de jeu 
+- 🗺️ Analyse de la phase de lane
+- 🕹️ Coaching complet lane par lane ( actuellement uniquement Midlane )
+
 
 ---
 
-## 🛠 Arborescence actuelle du projet
+## 🧠 Prochain module : IA de stratégie via Deep Learning
 
-📁 Data/
-├─ dataset_with_slots.json
-├─ champion_tags.json
-└─ itemsmap.py
+**Objectif**
 
-📁 Models/
-└─ itemization/
-├─ ItemRecommenderV2.py
-└─ item_model_v2.pkl
+Créer une IA capable d’apprendre à analyser une phase de lane à partir de clips vidéo annotés.
 
-📁 Scripts/
-├─ ItemResearch.py
-├─ RunesResearch.py
-├─ ChampionsRequest.py
-└─ build_dataset.py
+📋 Étapes prévues (Théorie) :
+    1.    Collecte & découpage de clips vidéo centrés sur la phase de lane (≈14min)
+    2.    Annotation manuelle : commencer avec 30 clips sur la notion de CSing (good_cs / bad_cs).
+    3.    Conception d’un dataset compatible PyTorch : intégration progressive des annotations.
+    4.    Modèle initial : entraînement sur une première tâche simple (ex : prédire si une phase est bonne ou mauvaise selon les cs).
+    5.    Itération : ajout progressif de nouvelles notions dans les annotations :
+    •    trades gagnants / perdants
+    •    wave management
+    •    vision / jungle tracking
+    •    recall timings
+    •    roaming / impact map
+    6.    Entraînement plus poussé avec clips plus longs, puis matchs complets.
+    7.    Émergence de compréhension stratégique par apprentissage supervisé et guidé par des scores/pénalités (reward shaping).
+    
+🧩 Approche stratégique
+    •    L’IA n’a pas besoin de mécaniques, uniquement de comprendre les situations de jeu.
+    •    On commence avec plusieurs champions, mais à terme tu pourras spécialiser l’IA par rôle ou champion (ex : 10 000 games de Yone mid).
+    •    À mesure que les concepts s’empilent, l’IA développera une compréhension profonde
+    •    Les annotations servent à guider l’apprentissage, mais une fois suffisantes, l’IA saura généraliser.
 
-📁 Training/
-└─ TrainingIAItems/
-├─ TrainModel.py
-├─ TestModel.py
-└─ TestModelV2.py
+---
 
+##🚀 Vision long terme
+
+- 🔄 Fusion de modules : build + stratégie + draft.
+- 🧠 IA multi-niveaux connectée par LLM ou un gestionnaire central ( ou les deux )
+- 💬 Interface de coaching automatisée capable d’expliquer, justifier, conseiller.
+- 📈 Potentiel économique : outils de coaching pour particuliers, équipes e-sport, académies.
+    
 ---
 
 ## 👤 Auteur
 
 **Ryan Delépine**  
-Développeur passionné de League of Legends , et d'informatique , j'aime tester des choses et mettre en commun des passions dans des projets sympa !  
-Projet conçu dans le cadre personnel , dans le seul but d'en apprendre plus sur l'intelligence artificielle.
 
----
-
-## 🧠 Vision long terme
-
-Créer un assistant aussi interactif et pédagogique que **l’IA de chess.com**, mais pour *League of Legends*, avec des explications précises, visuelles, et vocales si nécessaire.
+Je suis un developeur de 21 ans,  passionné de League of Legends , et d'informatique , j'aime tester des choses et mettre en commun des passions dans des projets sympa !
+  
+Projet conçu dans le cadre personnel , dans le seul but d'en apprendre plus sur l'intelligence artificielle ( et sur League Of Legends bien entendu ).
 
 ---
 
