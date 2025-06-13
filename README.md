@@ -90,7 +90,7 @@ Créer une IA capable d’apprendre à analyser une phase de lane à partir de c
 
 ---
 
-##🚀 Vision long terme##
+## 🚀 Vision long terme
 
 - 🔄 Fusion de modules : build + stratégie + draft.
 - 🧠 IA multi-niveaux connectée par LLM ou un gestionnaire central ( ou les deux )
