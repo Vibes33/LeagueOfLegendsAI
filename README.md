@@ -84,7 +84,7 @@ Créer une IA capable d’apprendre à analyser une phase de lane à partir de c
     
 🧩 Approche stratégique
     •    L’IA n’a pas besoin de mécaniques, uniquement de comprendre les situations de jeu.
-    •    On commence avec plusieurs champions, mais à terme tu pourras spécialiser l’IA par rôle ou champion (ex : 10 000 games de Yone mid).
+    •    On commence avec plusieurs champions, mais à terme l'idée est de spécialiser l’IA par rôle ou champion (ex : 10 000 games de Yone mid).
     •    À mesure que les concepts s’empilent, l’IA développera une compréhension profonde
     •    Les annotations servent à guider l’apprentissage, mais une fois suffisantes, l’IA saura généraliser.
 
