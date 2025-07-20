@@ -1,22 +1,17 @@
 import requests
 
-# ✅ Ta clé API Riot Games (valide 24h)
+
 RIOT_API_KEY = "Ajouter une API ici"
-
-# Configuration de l'en-tête d'authentification
 HEADERS = {"X-Riot-Token": RIOT_API_KEY}
-
-# Exemple de joueur sur le serveur EUW
 summoner_name = "Caps"
-region = "euw1"  # Pour les infos du joueur
+region = "euw1"  
 
-# URL pour obtenir les infos du joueur
+
 url = f"https://{region}.api.riotgames.com/lol/summoner/v4/summoners/by-name/{summoner_name}"
 
-# ➤ Envoi de la requête
+
 response = requests.get(url, headers=HEADERS)
 
-# ➤ Traitement de la réponse
 if response.status_code == 200:
     data = response.json()
     print("✅ Clé API valide ! Voici les infos du joueur :")
