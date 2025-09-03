@@ -17,21 +17,32 @@ Le but ultime : Développer une IA stratégique de très haut niveau capable d�
 
 ---
 
-## 🚀 Fonctionnalités actuelles
+## ✨ Fonctionnalités actuelles
 
-✅ Modèle IA fonctionnel pour :
-- 📦 Recommandation de builds (6 items) en fonction du champion, de l'équipe et des ennemis
-- 🏹 Prédiction de la rune principale optimale
-- 🧠 Prise en compte des tags stratégiques des champions (Assassin, Tank, Healing, etc.)
+✅ **Modèle IA fonctionnel pour :**
+- 📦 Recommandation de builds complets (6 items) en fonction du champion, de l’équipe et des ennemis  
+- 🏹 Prédiction de la rune principale optimale  
+- 🧠 Prise en compte des *tags stratégiques* des champions (Assassin, Tank, Healing, Hard CC, etc.)  
+- ⚔️ Gestion des matchups midlane pour enrichir les contextes d’entraînement  
 
-🛠 Base de données locale :
-- Objets, champions, runes, compétences, et tags
-- Matchups champions + builds liés à des contextes réels
+🛠 **Base de données locale :**
+- Objets, champions, runes, compétences, et tags  
+- Matchups champions + builds liés à des parties réelles  
+- Équipes alliées et ennemies enrichies avec leurs profils (tags + sorts)  
 
-📤 Possibilité de tester des contextes interactifs directement en terminal :
-- Entrée du champion joué
-- Composition alliée et ennemie
-- Retour immédiat : rune + build complet
+📤 **Interface interactive en terminal :**
+- Entrée du champion joué, rôle, et compositions alliée/ennemie  
+- Retour immédiat : rune optimale + build complet ordonné  
+- Feedback visuel clair (affichage structuré en terminal)  
+
+👁 **Module de vision (YOLOv8) :**
+- Extraction et annotation automatique d’images depuis des clips  
+- Détection en temps réel d’éléments clés : champions, sbires, tours, barres de HP/mana, minimap  
+- Pipeline d’entraînement et de prédiction opérationnel  
+- Tests possibles sur images, vidéos et webcam pour valider la détection  
+
+Il manque encore enorément de DATA mais les models fonctionnent !! 
+
 
 ---
 
@@ -49,6 +60,7 @@ Le but ultime : Développer une IA stratégique de très haut niveau capable d�
 | `PyTorch`            | Entraînement profond (deep learning)  |
 | `OpenCV`             | Traitement vidéo                      |
 | `JSon`               | Format d'annotation / de fichiers bdd |
+| `YOLO`               | Model d'ia à entrainer                |
 
 ---
 
@@ -87,6 +99,33 @@ Créer une IA capable d’apprendre à analyser une phase de lane à partir de c
     •    On commence avec plusieurs champions, mais à terme l'idée est de spécialiser l’IA par rôle ou champion (ex : 10 000 games de Yone mid).
     •    À mesure que les concepts s’empilent, l’IA développera une compréhension profonde
     •    Les annotations servent à guider l’apprentissage, mais une fois suffisantes, l’IA saura généraliser.
+
+    ## 🔮 Prochaines étapes
+
+🎯 **Renforcer la précision du module d’itemisation**  
+- Enrichir la base de données avec davantage de parties (pro + haut elo)  
+- Intégrer des règles contextuelles avancées (anti-heal vs régénération, bottes spécifiques vs CC lourd, etc.)  
+- Optimiser le modèle pour prendre en compte plus de rôles que la midlane  
+
+👁 **Améliorer le module de vision (YOLOv8)**  
+- Annoter et entraîner sur davantage d’images pour stabiliser la détection  
+- Étendre les classes détectées : objectifs neutres (Drake, Baron, camps de jungle), sorts utilisés, vision (wards)  
+- Développer une interface temps réel qui superpose les détections sur le replay et suit la timeline  
+
+🧩 **Analyse de phase de lane (Deep Learning + annotations)**  
+- Création d’un dataset de clips annotés (ex. : `good_cs`, `bad_trade`, `good_recall`)  
+- Entraîner l’IA à reconnaître les fondamentaux : CS/min, gestion de wave, recalls, trades gagnants/perdants  
+- Développer un système de scoring par phase de lane (comme un coach qui attribue des notes)  
+
+⚔️ **Vers une IA stratégique complète**  
+- Fusionner les modules existants (itemisation, vision, phase de lane) dans un seul pipeline d’analyse  
+- Ajouter un module d’**analyse de draft** basé sur la méta et les synergies/contre-synergies entre champions  
+- Générer des rapports détaillés **minute par minute** avec conseils pratiques (itemisation, mouvements, vision, objectifs)  
+
+🌐 **Expérience utilisateur finale**  
+- Site web ou app permettant d’**uploader un replay Riot** (`.rofl`)  
+- Coaching interactif où l’IA commente la partie comme un head coach (à la manière d’un grand maître d’échecs sur chess.com)  
+- Mode interactif avec feedback utilisateur (✅ compris / ❌ pas compris → l’IA développe son explication)  
 
 ---
 
