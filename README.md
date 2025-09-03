@@ -100,7 +100,7 @@ Créer une IA capable d’apprendre à analyser une phase de lane à partir de c
     •    À mesure que les concepts s’empilent, l’IA développera une compréhension profonde
     •    Les annotations servent à guider l’apprentissage, mais une fois suffisantes, l’IA saura généraliser.
 
-    ## 🔮 Prochaines étapes
+ ## 🔮 Prochaines étapes
 
 🎯 **Renforcer la précision du module d’itemisation**  
 - Enrichir la base de données avec davantage de parties (pro + haut elo)  
