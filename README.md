@@ -43,7 +43,7 @@ A comprehensive Python application combining champion database management, intel
 
 **📊 Data Engineering**
 - Efficient JSON-based database design
-- Smart querying with O(n) complexity
+- Querying with O(n) complexity
 - Data normalization and validation
 - Scalable architecture for 160+ champions
 
@@ -52,12 +52,6 @@ A comprehensive Python application combining champion database management, intel
 - Progressive disclosure of complex information
 - User-friendly navigation and error handling
 - Cross-platform compatibility (Windows/macOS/Linux)
-
-### Use Cases
-- **Players**: Get optimal builds and analyze performance to improve rank
-- **Developers**: Study clean Python architecture and AI system design
-- **Portfolio**: Demonstrate full-stack development capabilities
-- **Learning**: Example of production-quality code with best practices
 
 ---
 
