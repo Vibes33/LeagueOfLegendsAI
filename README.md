@@ -27,8 +27,6 @@ A comprehensive Python application combining champion database management, intel
 
 ## 🎯 Overview
 
-This project showcases **advanced Python development** and **AI system design** through a real-world gaming application. It demonstrates professional software engineering practices while solving practical problems for League of Legends players.
-
 ### What Makes This Project Stand Out
 
 **🧠 Intelligent AI Systems**
