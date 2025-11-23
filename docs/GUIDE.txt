@@ -1,0 +1,238 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  ⚔️  LEAGUE OF LEGENDS EXPERT BUILD SYSTEM v2.0                             │
+│                                                                             │
+│  🎯 Builds basés sur de vraies parties Challenger via l'API Riot          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📦 STRUCTURE DU PROJET
+══════════════════════════════════════════════════════════════════════════════
+
+    📁 League Of Legends/
+    │
+    ├── 🐍 lol_manager.py              ← Menu principal
+    ├── ⚙️  build_generator.py          ← Générateur de builds
+    ├── 🌐 riot_api_client.py          ← Client API Riot (analyse matches)
+    ├── 📊 data_dragon_client.py       ← Client Data Dragon (champions/items)
+    ├── 🤖 gameplay_analyzer.py        ← Analyse de performance
+    │
+    ├── 🔑 riot_api_key.txt            ← ⚠️  Ta clé API (à créer)
+    ├── 📝 riot_api_key.txt.example    ← Instructions
+    ├── 🧪 test_api_key.py             ← Test de clé API
+    │
+    ├── 📖 README.md                   ← Documentation complète
+    ├── 📋 CHANGELOG.md                ← Historique des changements
+    ├── 🚀 quick_menu.sh               ← Menu rapide (optionnel)
+    │
+    ├── 📦 requirements.txt            ← Dépendances Python
+    ├── 🚫 .gitignore                  ← Protection de la clé API
+    │
+    ├── 📁 .venv/                      ← Environnement virtuel Python
+    └── 📁 cache/                      ← Cache des requêtes API
+
+══════════════════════════════════════════════════════════════════════════════
+
+🚀 QUICK START
+══════════════════════════════════════════════════════════════════════════════
+
+  1️⃣  SANS CLÉ API (système expert - instantané)
+      
+      python lol_manager.py
+      [4] Generate Build
+      Champion: Yasuo
+      Role: [3] Mid
+      → Build généré avec le système expert
+
+  2️⃣  AVEC CLÉ API (vraies données Challenger - 1-2 min)
+      
+      # Obtenir la clé
+      https://developer.riotgames.com/ → Sign in → Generate API Key
+      
+      # Configurer
+      echo "RGAPI-your-key-here" > riot_api_key.txt
+      
+      # Tester
+      python test_api_key.py
+      
+      # Utiliser
+      python lol_manager.py
+      [4] Generate Build
+      Champion: Yasuo
+      Role: [3] Mid
+      Use API? [Y] ← OUI !
+      → Analyse 50+ games Challenger + winrate réel
+
+══════════════════════════════════════════════════════════════════════════════
+
+✨ FONCTIONNALITÉS
+══════════════════════════════════════════════════════════════════════════════
+
+  [1] 📋 Champions List
+      • 172 champions disponibles
+      • Détails complets des sorts (cooldowns, mana, dégâts)
+      • Passive + Q/W/E/R
+
+  [2] 🔍 Search Champion
+      • Recherche par nom
+      • Affichage détaillé
+
+  [3] 🎒 Items Database
+      • 169 items (Summoner's Rift)
+      • Recherche par nom
+      • Stats détaillées
+
+  [4] 🛡️  Generate Build ⭐ NOUVEAU
+      • Choix du rôle (Top/Jungle/Mid/ADC/Support)
+      • Détection automatique API key
+      • Analyse de vraies games Challenger si API disponible
+      • Fallback automatique si API indisponible
+      • Affichage complet :
+        ✨ Summoner spells
+        🔮 Runes (Keystone + Primary/Secondary)
+        🎯 Starting items
+        ⚔️  Core build (ordre optimal)
+        📈 Winrate + nombre de games analysées
+
+  [5] 🤖 Gameplay Analysis
+      • Analyse de performance
+      • Recommandations personnalisées
+
+══════════════════════════════════════════════════════════════════════════════
+
+📊 COMPARAISON : AVANT vs APRÈS
+══════════════════════════════════════════════════════════════════════════════
+
+                    AVANT (v1.0)           │  APRÈS (v2.0)
+  ────────────────────────────────────────┼──────────────────────────────────
+  Source données    Builds manuels          │  API Riot officielle
+  Champions         7 pré-configurés        │  172 champions (tous)
+  Rôles            Pas de différence        │  Builds différents par rôle
+  Winrate          Non disponible           │  Winrate réel affiché
+  Mise à jour      Manuelle                 │  Automatique via API
+  Comme U.GG ?     ❌ Non                    │  ✅ OUI - même source !
+
+══════════════════════════════════════════════════════════════════════════════
+
+🔑 OBTENIR UNE CLÉ API (GRATUIT)
+══════════════════════════════════════════════════════════════════════════════
+
+  1. Va sur https://developer.riotgames.com/
+  2. Sign in avec ton compte Riot Games
+  3. Click "REGISTER PRODUCT" ou "Generate API Key"
+  4. Copie ta Development API Key (RGAPI-...)
+  5. Crée le fichier : echo "RGAPI-..." > riot_api_key.txt
+  6. Teste : python test_api_key.py
+  7. Lance : python lol_manager.py
+
+  ⚠️  Clé Development expire après 24h (normal, gratuit)
+  💡 Limites : 20 req/sec, 100 req/2min (suffisant !)
+
+══════════════════════════════════════════════════════════════════════════════
+
+🎯 EXEMPLE DE SORTIE
+══════════════════════════════════════════════════════════════════════════════
+
+  🛡️  BUILD - YASUO
+  ──────────────────────────────────────────────────────────────────────────
+  Type: AD  |  Role: Mid
+  Source: riot_api (58.2% WR, 67 games)  ← WINRATE RÉEL !
+
+  ✨ SUMMONER SPELLS:
+    Flash + Ignite
+
+  🔮 RUNES:
+  ──────────────────────────────────────────────────────────────────────────
+  Keystone: Conqueror
+  Primary: Precision
+  Secondary: Domination
+
+  🎯 STARTING ITEMS:
+  ──────────────────────────────────────────────────────────────────────────
+    • Doran's Blade
+    • Health Potion
+
+  ⚔️  CORE BUILD (in order):
+  ──────────────────────────────────────────────────────────────────────────
+  [1] Berserker's Greaves
+  [2] Immortal Shieldbow
+  [3] Infinity Edge
+  [4] Phantom Dancer
+  [5] Bloodthirster
+  [6] Mortal Reminder
+
+══════════════════════════════════════════════════════════════════════════════
+
+🛠️  DÉPANNAGE
+══════════════════════════════════════════════════════════════════════════════
+
+  ❌ "API key not found"
+     → Crée riot_api_key.txt dans le dossier du projet
+
+  ❌ "401 Forbidden"
+     → Clé expirée (24h) → Génère-en une nouvelle
+
+  ❌ "429 Rate limit"
+     → Attends 2 minutes et réessaie
+
+  ❌ Module not found
+     → Active l'environnement : source .venv/bin/activate
+     → Installe : pip install -r requirements.txt
+
+══════════════════════════════════════════════════════════════════════════════
+
+📈 STATISTIQUES
+══════════════════════════════════════════════════════════════════════════════
+
+  • 172 champions disponibles
+  • 169 items (Summoner's Rift uniquement)
+  • Patch 15.23.1 (mise à jour automatique)
+  • 5 fichiers Python principaux
+  • ~80KB de code
+  • Cache intelligent (1h pour stats, 24h pour joueurs)
+
+══════════════════════════════════════════════════════════════════════════════
+
+🌍 RÉGIONS SUPPORTÉES
+══════════════════════════════════════════════════════════════════════════════
+
+  EUW1 (Europe West) - Par défaut
+  NA1 (North America)
+  KR (Korea)
+  EUN1 (Europe Nordic & East)
+  BR1 (Brazil)
+  LA1/LA2 (Latin America)
+  OC1 (Oceania)
+  TR1 (Turkey)
+  RU (Russia)
+  JP1 (Japan)
+
+══════════════════════════════════════════════════════════════════════════════
+
+📞 SUPPORT & CONTRIBUTION
+══════════════════════════════════════════════════════════════════════════════
+
+  📖 Documentation : README.md
+  📋 Changelog : CHANGELOG.md
+  🌐 API Riot : https://developer.riotgames.com/
+
+  Données fournies par :
+  • Riot Data Dragon API (champions, items, runes)
+  • Riot Games Official API (match data, rankings)
+
+══════════════════════════════════════════════════════════════════════════════
+
+✅ SYSTÈME PRÊT À L'EMPLOI !
+══════════════════════════════════════════════════════════════════════════════
+
+  Lance maintenant :
+  
+      python lol_manager.py
+  
+  Ou utilise le menu rapide :
+  
+      ./quick_menu.sh
+
+══════════════════════════════════════════════════════════════════════════════
+
+Made with ⚡ by Ryan | Version 2.0 | November 2025

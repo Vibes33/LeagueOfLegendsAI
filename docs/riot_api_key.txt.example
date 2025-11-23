@@ -1,0 +1,22 @@
+# HOW TO GET YOUR RIOT API KEY
+
+1. Go to: https://developer.riotgames.com/
+2. Sign in with your Riot Games account
+3. Click "REGISTER PRODUCT" or "Generate API Key"
+4. Copy your Development API Key (starts with RGAPI-)
+5. Create a file named "riot_api_key.txt" in this folder
+6. Paste your key in the file (one line only)
+
+Example format:
+RGAPI-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+⚠️  IMPORTANT:
+- Development keys expire after 24 hours
+- You can generate a new one daily for free
+- Never share your API key publicly
+- The key is already in .gitignore for safety
+
+Rate Limits (Free Tier):
+- 20 requests per second
+- 100 requests per 2 minutes
+- Perfect for analyzing 50-100 games per champion
