@@ -25,7 +25,7 @@ echo "RGAPI-your-key-here" > riot_api_key.txt
 - 📋 Liste des 172 champions avec détails des sorts
 - 🎒 Base de données de 169 items
 - 🛡️ Générateur de builds avec données réelles Challenger
-- 🤖 Analyse de gameplay
+- 🤖 Analyse de gameplay ( en cours )
 
 ## 🔑 API Riot (Optionnel)
 
@@ -48,4 +48,4 @@ python test_api_key.py
 
 ---
 
-**Version 2.0** | Made with ⚡ by Ryan
+**Version 3.0** | Made by @Vibes33
